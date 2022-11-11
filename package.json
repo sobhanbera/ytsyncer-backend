@@ -1,0 +1,39 @@
+{
+  "name": "ytsyncer-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for the ytsyncer project",
+  "main": "server.js",
+  "type": "module",
+  "author": "Sobhan Bera",
+  "license": "ISC",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  },
+  "bugs": {
+    "url": "https://github.com/sobhanbera/ytsyncer-backend/issues"
+  },
+  "homepage": "https://github.com/sobhanbera/ytsyncer-backend#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobhanbera/ytsyncer-backend.git"
+  },
+  "keywords": [
+    "ytsyncer",
+    "ytsyncer-backend",
+    "music-syncer",
+    "syncer"
+  ]
+}
